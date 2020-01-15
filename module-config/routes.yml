@@ -1,0 +1,14 @@
+new-worker:
+  path: /dashboard/new-worker
+  controller: Selene\Modules\NewWorkerModule\Http\Controllers\NewWorkerController@index
+  methods:
+    - GET
+  permission: NewWorkerModule.form
+
+new-worker.send:
+  path: /dashboard/new-worker
+  controller: Selene\Modules\NewWorkerModule\Http\Controllers\NewWorkerController@send
+  methods:
+    - POST
+  permission: NewWorkerModule.form
+

@@ -1,0 +1,21 @@
+{
+    "name": "zdrojowa/new-worker",
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "~6.0",
+        "zdrojowa/cms-kernel": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kpiasecki",
+            "email": "k.piasecki@zdrojowainvest.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Selene\\Modules\\NewWorkerModule\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+name: NewWorkerModule
+version: 0.0.1
+
+aclAnchor: NewWorkerModule
+aclName: Nowy pracownik
+
+routePrefix: NewWorkerModule

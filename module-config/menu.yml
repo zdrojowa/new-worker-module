@@ -1,0 +1,5 @@
+new-worker:
+  name: Nowy pracownik
+  icon: mdi mdi-account-check
+  permission: NewWorkerModule.form
+  route: NewWorkerModule::new-worker
